@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Gallerymage</title>
+</head>
+<body>
+       <div class="logo-container">
+        <h3 class="logo-text"><i class="fa-solid fa-a"></i><i class="fa-solid fa-k"></i><i class="fa-solid fa-code"></i></h3>
+    </div>
+    <h1 class="title">Gallerymage</h1>
+    <div class="search-container">
+        <div class="search">
+          <input type="text" class="searchTerm" placeholder="Search for the photo you want...">
+          <button type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+    </div>
+    <div id="loader"></div>
+    <div> 
+      
+        <div id="filter-options">
+            <div class="buttonCategory">
+              <span ><a href="#" data-category="Nature" class="buttonCat"></a></span>
+              <span ><a href="#" data-category="Car"  class="buttonCat"></a></span>
+              <span ><a href="#" data-category="Beach" class="buttonCat"></a></span>
+              <span ><a href="#" data-category="Sky" class="buttonCat"></a></span>
+              <span  ><a href="#" data-category="Coffee" class="buttonCat"></a></span>
+              <span ><a href="#" data-category="Technology" class="buttonCat"></a></span>
+            </div>  
+          </div>
+          
+          
+    
+    </div>
+    <div id="image-container"></div>
+    <div class="pagination">
+        <button class="prevButton pagiBtn"> <i class="fa-solid fa-angle-left"></i> </button>
+        <button class="nextButton pagiBtn"> <i class="fa-solid fa-angle-right"></i></button>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Gallerymage. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
